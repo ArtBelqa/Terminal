@@ -1,0 +1,5 @@
+./lecture.txt:grep -l -r line_100  - ищи все строчки во всех файлах где есть line_100 (grep -l -r line_100 .)
+./lecture.txt:grep -l -r line_100 r3/f1.txt r3/f3.txt - поищи в этих файлах строчку line 100 (она там есть?)
+./r3/f1.txt:line_100
+./r3/f3.txt:line_100
+./r3/f2.txt:line_100
